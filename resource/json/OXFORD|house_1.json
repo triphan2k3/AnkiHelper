@@ -1,0 +1,111 @@
+{
+    "id": "OXFORD_house_1",
+    "word": "house",
+    "uk_pron": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/h/hou/house/house__gb_3.mp3",
+    "us_pron": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/h/hou/house/house__us_1.mp3",
+    "uk_pron_filename": "OXFORD_house_1_uk.mp3",
+    "us_pron_filename": "OXFORD_house_1_us.mp3",
+    "uk_ipa": "/haʊs/ /ˈhaʊzɪz/",
+    "us_ipa": "/haʊs/ /ˈhaʊzɪz/",
+    "word_type": "noun",
+    "plural": "houses",
+    "variant": "",
+    "definitions": [
+        "a building for people to live in, usually for one family",
+        "all the people living in a house",
+        "a building used for a particular purpose, for example for holding meetings in or keeping animals or goods in",
+        "used in the names of office buildings",
+        "a company involved in a particular kind of business; an institution of a particular kind",
+        "a restaurant",
+        "a group of people who meet to discuss and make the laws of a country",
+        "the House of Commons or the House of Lords in the UK; the House of Representatives in the US",
+        "a group of people discussing something in a formal debate",
+        "the part of a theatre where the audience sits; the audience at a particular performance",
+        "(in some British schools) an organized group of students of different ages who compete against other groups in sports competitions, etc. and who may, in boarding schools, live together in one building",
+        "an old and famous family",
+        "a type of electronic dance music with a fast beat"
+    ],
+    "examples": [
+        [
+            "<b>in a house</b> We live in a two-bedroom house.",
+            "<b>in the house</b> It was so hot outside we stayed in the house.",
+            "<b>into the house</b> He went into the house.",
+            "<b>out of the house</b> I had to get out of the house.",
+            "<b>inside the house</b> A light was on inside the house.",
+            "<b>outside the house</b> There was a police van parked outside the house.",
+            "<b>at somebody's house</b> Let's have a party at my house.",
+            "We need to build more houses in a way that respects the needs of the environment.",
+            "Investors were buying houses to rent them out.",
+            "What time do you leave the house in the morning (= to go to work)?",
+            "We're moving house (= leaving our house and going to live in a different one).",
+            "House prices (= prices of houses and flats) in London are still rising.",
+            "We went on a tour of the house and grounds (= for example, at a country house, open to the public).",
+            "They went from house to house, begging for food."
+        ],
+        [
+            "Be quiet or you'll wake the whole house!"
+        ],
+        [
+            "an opera house",
+            "a henhouse"
+        ],
+        [
+            "Their offices are on the second floor of Chester House."
+        ],
+        [
+            "a fashion/banking/publishing house",
+            "a religious house (= a convent or a monastery)"
+        ],
+        [
+            "a steakhouse",
+            "a coffee house",
+            "a bottle of house wine (= the cheapest wine available in a particular restaurant, sometimes not listed by name)"
+        ],
+        [
+            "Legislation requires approval by both houses of parliament."
+        ],
+        [],
+        [
+            "I urge the house to vote against the motion."
+        ],
+        [
+            "playing to a full/packed/empty house (= to a large/small audience)",
+            "The spotlight faded and the house lights came up."
+        ],
+        [],
+        [
+            "the House of Windsor (= the British royal family)"
+        ],
+        []
+    ],
+    "list_examples": [
+        "<b>in a house</b> We live in a two-bedroom house.",
+        "<b>in the house</b> It was so hot outside we stayed in the house.",
+        "<b>into the house</b> He went into the house.",
+        "<b>out of the house</b> I had to get out of the house.",
+        "<b>inside the house</b> A light was on inside the house.",
+        "<b>outside the house</b> There was a police van parked outside the house.",
+        "<b>at somebody's house</b> Let's have a party at my house.",
+        "We need to build more houses in a way that respects the needs of the environment.",
+        "Investors were buying houses to rent them out.",
+        "What time do you leave the house in the morning (= to go to work)?",
+        "We're moving house (= leaving our house and going to live in a different one).",
+        "House prices (= prices of houses and flats) in London are still rising.",
+        "We went on a tour of the house and grounds (= for example, at a country house, open to the public).",
+        "They went from house to house, begging for food.",
+        "Be quiet or you'll wake the whole house!",
+        "an opera house",
+        "a henhouse",
+        "Their offices are on the second floor of Chester House.",
+        "a fashion/banking/publishing house",
+        "a religious house (= a convent or a monastery)",
+        "a steakhouse",
+        "a coffee house",
+        "a bottle of house wine (= the cheapest wine available in a particular restaurant, sometimes not listed by name)",
+        "Legislation requires approval by both houses of parliament.",
+        "I urge the house to vote against the motion.",
+        "playing to a full/packed/empty house (= to a large/small audience)",
+        "The spotlight faded and the house lights came up.",
+        "the House of Windsor (= the British royal family)"
+    ]
+}

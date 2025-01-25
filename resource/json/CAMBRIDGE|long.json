@@ -1,0 +1,99 @@
+{
+    "id": "CAMBRIDGE_long",
+    "word": "long",
+    "uk_pron": "https://dictionary.cambridge.org/vi/media/english/uk_pron/u/ukl/uklon/uklonel004.mp3",
+    "us_pron": "https://dictionary.cambridge.org/vi/media/english/us_pron/l/lon/long_/long.mp3",
+    "uk_pron_filename": "CAMBRIDGE_long_uk.mp3",
+    "us_pron_filename": "CAMBRIDGE_long_us.mp3",
+    "uk_ipa": "/lɒŋ/",
+    "us_ipa": "/lɑːŋ/",
+    "word_type": "adverb,verb,adjective,noun",
+    "plural": "",
+    "variant": "",
+    "definitions": [
+        "continuing for a large amount of time",
+        "being a distance between two points that is more than average or usual",
+        "used to describe a piece of writing that has a lot of pages or words",
+        "used to mean \"(for) a long time\", especially in questions and negative sentences",
+        "a long period of time before or after something",
+        "used with the past participle or the -ing form of the verb to mean that a state or activity has continued for a long time",
+        "used to say that something must happen before something else can happen",
+        "to want something very much",
+        "written abbreviation for\nlongitude",
+        "written abbreviation for \nlongitude"
+    ],
+    "examples": [
+        [
+            "a long film/meeting",
+            "I've been waiting a long time.",
+            "It's a long time since I worked there.",
+            "Apparently the sessions are an hour long."
+        ],
+        [
+            "long hair",
+            "long legs",
+            "a long dress",
+            "There was a long queue at the post office.",
+            "We're still a long way from the station."
+        ],
+        [
+            "a long letter/book/report"
+        ],
+        [
+            "Have you been waiting (for) long?",
+            "I'm just writing a letter but it won't take long.",
+            "How long have you been in England?",
+            "Don't rush - take as long as you like.",
+            "We've been walking all day long.",
+            "I've known her longer than you have.",
+            "I won't be staying much longer."
+        ],
+        [
+            "She left the house long before I arrived.",
+            "It wasn't long before he was back with his family.",
+            "He did not join them until long after they had eaten."
+        ],
+        [
+            "a long-awaited letter",
+            "long-serving employees"
+        ],
+        [
+            "I can come as long as I can leave by 4.00.",
+            "Bring your friends by all means - just so long as I know how many are coming."
+        ],
+        [
+            "She longed to see him again.",
+            "I'm longing for news of him."
+        ],
+        [],
+        []
+    ],
+    "list_examples": [
+        "a long film/meeting",
+        "I've been waiting a long time.",
+        "It's a long time since I worked there.",
+        "Apparently the sessions are an hour long.",
+        "long hair",
+        "long legs",
+        "a long dress",
+        "There was a long queue at the post office.",
+        "We're still a long way from the station.",
+        "a long letter/book/report",
+        "Have you been waiting (for) long?",
+        "I'm just writing a letter but it won't take long.",
+        "How long have you been in England?",
+        "Don't rush - take as long as you like.",
+        "We've been walking all day long.",
+        "I've known her longer than you have.",
+        "I won't be staying much longer.",
+        "She left the house long before I arrived.",
+        "It wasn't long before he was back with his family.",
+        "He did not join them until long after they had eaten.",
+        "a long-awaited letter",
+        "long-serving employees",
+        "I can come as long as I can leave by 4.00.",
+        "Bring your friends by all means - just so long as I know how many are coming.",
+        "She longed to see him again.",
+        "I'm longing for news of him."
+    ]
+}

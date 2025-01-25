@@ -1,0 +1,115 @@
+{
+    "id": "OXFORD_the_1",
+    "word": "the",
+    "uk_pron": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/t/the/the__/the__gb_1.mp3",
+    "us_pron": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/the/the__/the__us_1_rr.mp3",
+    "uk_pron_filename": "OXFORD_the_1_uk.mp3",
+    "us_pron_filename": "OXFORD_the_1_us.mp3",
+    "uk_ipa": "/ðə/ before vowels /ði/ strong form /ðiː/",
+    "us_ipa": "/ðə/ before vowels /ði/ strong form /ðiː/",
+    "word_type": "definite article",
+    "plural": "",
+    "variant": "",
+    "definitions": [
+        "used to refer to somebody/something that has already been mentioned or is easily understood",
+        "used to refer to somebody/something that is the only, normal or obvious one of their kind",
+        "used when explaining which person or thing you mean",
+        "used to refer to a thing in general rather than a particular example",
+        "used with adjectives to refer to a thing or a group of people described by the adjective",
+        "used before the plural of somebody’s last name to refer to a whole family or a married couple",
+        "used with a unit of measurement to mean ‘every’",
+        "enough of something for a particular purpose",
+        "used with a unit of time to mean ‘the present’",
+        "used, stressing the, to show that the person or thing referred to is famous or important"
+    ],
+    "examples": [
+        [
+            "There were three questions. The first two were relatively easy but the third one was hard.",
+            "There was an accident here yesterday. A car hit a tree and the driver was killed.",
+            "The heat was getting to be too much for me.",
+            "The nights are getting longer."
+        ],
+        [
+            "the Mona Lisa",
+            "the Nile",
+            "the Queen",
+            "What's the matter?",
+            "The phone rang.",
+            "I patted her on the back.",
+            "How's the (= your) baby?"
+        ],
+        [
+            "the house at the end of the street",
+            "The people I met there were very friendly.",
+            "It was the best day of my life.",
+            "You're the third person to ask me that.",
+            "Friday the thirteenth",
+            "Alexander the Great"
+        ],
+        [
+            "He taught himself to play the violin.",
+            "The dolphin is an intelligent animal.",
+            "They placed the African elephant on their endangered list.",
+            "I heard it on the radio.",
+            "I'm usually out during the day."
+        ],
+        [
+            "With him, you should always expect the unexpected.",
+            "the unemployed",
+            "the French"
+        ],
+        [
+            "Don't forget to invite the Jordans."
+        ],
+        [
+            "My car does forty miles to the gallon.",
+            "You get paid by the hour."
+        ],
+        [
+            "I wanted it but I didn't have the money."
+        ],
+        [
+            "Why not have the dish of the day?",
+            "She's flavour of the month with him."
+        ],
+        [
+            "Sheryl Crow? Not the Sheryl Crow?",
+            "At that time London was the place to be."
+        ]
+    ],
+    "list_examples": [
+        "There were three questions. The first two were relatively easy but the third one was hard.",
+        "There was an accident here yesterday. A car hit a tree and the driver was killed.",
+        "The heat was getting to be too much for me.",
+        "The nights are getting longer.",
+        "the Mona Lisa",
+        "the Nile",
+        "the Queen",
+        "What's the matter?",
+        "The phone rang.",
+        "I patted her on the back.",
+        "How's the (= your) baby?",
+        "the house at the end of the street",
+        "The people I met there were very friendly.",
+        "It was the best day of my life.",
+        "You're the third person to ask me that.",
+        "Friday the thirteenth",
+        "Alexander the Great",
+        "He taught himself to play the violin.",
+        "The dolphin is an intelligent animal.",
+        "They placed the African elephant on their endangered list.",
+        "I heard it on the radio.",
+        "I'm usually out during the day.",
+        "With him, you should always expect the unexpected.",
+        "the unemployed",
+        "the French",
+        "Don't forget to invite the Jordans.",
+        "My car does forty miles to the gallon.",
+        "You get paid by the hour.",
+        "I wanted it but I didn't have the money.",
+        "Why not have the dish of the day?",
+        "She's flavour of the month with him.",
+        "Sheryl Crow? Not the Sheryl Crow?",
+        "At that time London was the place to be."
+    ]
+}

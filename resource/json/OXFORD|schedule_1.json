@@ -1,0 +1,76 @@
+{
+    "id": "OXFORD_schedule_1",
+    "word": "schedule",
+    "uk_pron": "https://www.oxfordlearnersdictionaries.com/media/english/uk_pron/s/sch/sched/schedule__gb_1.mp3",
+    "us_pron": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sch/sched/schedule__us_1_rr.mp3",
+    "uk_pron_filename": "OXFORD_schedule_1_uk.mp3",
+    "us_pron_filename": "OXFORD_schedule_1_us.mp3",
+    "uk_ipa": "/ˈʃedjuːl/",
+    "us_ipa": "/ˈskedʒuːl/",
+    "word_type": "noun",
+    "plural": "",
+    "variant": "",
+    "definitions": [
+        "a plan that lists all the work that you have to do and when you must do each thing",
+        "a chart showing the times at which trains, buses and planes leave and arrive",
+        "a chart or plan of the classes that a student or teacher has in school each week",
+        "a list of the television and radio programmes that are on a particular channel and the times that they start",
+        "a written list of things, for example prices, rates or conditions"
+    ],
+    "examples": [
+        [
+            "I have a hectic schedule for the next few days.",
+            "a busy/gruelling/punishing schedule",
+            "We're working to a tight schedule (= we have a lot of things to do in a short time).",
+            "He has taken some time out of his busy schedule to talk to us.",
+            "They have a very flexible work schedule. ",
+            "I have no time available in my regular schedule.",
+            "<b>on schedule</b> Filming began on schedule (= at the planned time).",
+            "The project will be completed on schedule this summer.",
+            "<b>ahead of schedule</b> The new bridge has been finished two years ahead of schedule.",
+            "<b>behind schedule</b> The tunnel project has already fallen behind schedule.",
+            "<b>according to schedule</b> At this stage everything is going according to schedule (= as planned).",
+            "We are trying desperately to keep to our schedule.",
+            "The countries have yet to set the schedule for the next round of talks."
+        ],
+        [
+            "Connor checked the bus schedules for the day.",
+            "disruptions to flight schedules caused by the strike"
+        ],
+        [
+            "Besides a full school schedule, Kayla's week is jam-packed with other activities.",
+            "What's your schedule like next semester?"
+        ],
+        [
+            "The channel's schedules are filled with old films and repeats.",
+            "Channel 4 has published its spring schedules.",
+            "The show trebled ratings for the channel's afternoon schedule."
+        ],
+        [
+            "tax schedules"
+        ]
+    ],
+    "list_examples": [
+        "I have a hectic schedule for the next few days.",
+        "a busy/gruelling/punishing schedule",
+        "We're working to a tight schedule (= we have a lot of things to do in a short time).",
+        "He has taken some time out of his busy schedule to talk to us.",
+        "They have a very flexible work schedule. ",
+        "I have no time available in my regular schedule.",
+        "<b>on schedule</b> Filming began on schedule (= at the planned time).",
+        "The project will be completed on schedule this summer.",
+        "<b>ahead of schedule</b> The new bridge has been finished two years ahead of schedule.",
+        "<b>behind schedule</b> The tunnel project has already fallen behind schedule.",
+        "<b>according to schedule</b> At this stage everything is going according to schedule (= as planned).",
+        "We are trying desperately to keep to our schedule.",
+        "The countries have yet to set the schedule for the next round of talks.",
+        "Connor checked the bus schedules for the day.",
+        "disruptions to flight schedules caused by the strike",
+        "Besides a full school schedule, Kayla's week is jam-packed with other activities.",
+        "What's your schedule like next semester?",
+        "The channel's schedules are filled with old films and repeats.",
+        "Channel 4 has published its spring schedules.",
+        "The show trebled ratings for the channel's afternoon schedule.",
+        "tax schedules"
+    ]
+}

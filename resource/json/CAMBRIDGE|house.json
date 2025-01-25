@@ -1,0 +1,126 @@
+{
+    "id": "CAMBRIDGE_house",
+    "word": "house",
+    "uk_pron": "https://dictionary.cambridge.org/media/english/uk_pron/u/ukh/ukhot/ukhotfo023.mp3",
+    "us_pron": "https://dictionary.cambridge.org/media/english/us_pron/h/hou/house/house.mp3",
+    "uk_pron_filename": "CAMBRIDGE_house_uk.mp3",
+    "us_pron_filename": "CAMBRIDGE_house_us.mp3",
+    "uk_ipa": "/haʊs/ /ˈhaʊ.zɪz/",
+    "us_ipa": "/haʊs/ /ˈhaʊ.zɪz/",
+    "word_type": "verb,noun",
+    "plural": "houses",
+    "variant": "",
+    "definitions": [
+        "a building that people, usually one family, live in",
+        "all the people living in a house",
+        "a building where animals are kept",
+        "a building or part of a building that is used for a special purpose",
+        "a company that is involved in a particular area of business",
+        "a restaurant, especially one selling a particular type of food",
+        "used before another noun to refer to something that is always or often served in a particular restaurant and is good there, such as a wine that is reasonably priced or a dish that is especially good",
+        "a hospital; used especially before another noun to refer to doctors working in a hospital who are still training",
+        "popular dance music with a fast regular beat, usually produced on electronic equipment",
+        "any of a small number of groups that the children in a school are put in for sports and other competitions",
+        "an important family, especially a royal one",
+        "an organization that makes laws, or its meeting place",
+        "the members of the organization that makes laws",
+        "the group of people who suggest a subject for a debate",
+        "the people watching a performance, especially in a theatre",
+        "to give a person or animal a place to live, or to provide space for something"
+    ],
+    "examples": [
+        [
+            "a detached/semi-detached house",
+            "to buy/rent a house",
+            "house prices",
+            "She lives in a little house in (US on) Cross Street."
+        ],
+        [
+            "<b>the whole house</b> Try not to wake the whole house when you come in!"
+        ],
+        [
+            "the monkey/lion house at the zoo",
+            "a hen house"
+        ],
+        [
+            "the Sydney Opera House",
+            "Broadcasting House"
+        ],
+        [
+            "a publishing house",
+            "a fashion house"
+        ],
+        [
+            "Roast chicken is a speciality of the house.",
+            "a waffle/steak/sushi house",
+            "a curry house (= a South Asian restaurant)"
+        ],
+        [
+            "<b>house wine</b> To keep costs down, ask for \"vino de la casa\", or house wine.",
+            "<b>house white</b> I'll have a glass of the house white, please.",
+            "<b>house red</b> We split a carafe of house red.",
+            "Our house cocktail is an Indian twist on the classic gin and tonic.",
+            "The pies are a house speciality."
+        ],
+        [
+            "<b>house staff</b> House staff includes residents, interns, and medical students, who are at various stages of training and who are supervised by the attending physician.",
+            "A house officer is a resident physician of a hospital (the \"house\") who is receiving further training."
+        ],
+        [
+            "House music first appeared in the late 1980s."
+        ],
+        [
+            "an inter-house hockey match"
+        ],
+        [
+            "The British Royal Family belong to the House of Windsor."
+        ],
+        [],
+        [
+            "The House began debating the proposal at 3 p.m."
+        ],
+        [
+            "The motion for tonight's debate is, \"This house believes that capital punishment should be abolished.\""
+        ],
+        [
+            "<b>full house</b> The opera played to a full house.",
+            "<b>packed house</b> Everyone in the packed house rose to their feet and applauded."
+        ],
+        [
+            "It will be difficult to house all the refugees.",
+            "The museum houses the biggest collection of antique toys in Europe."
+        ]
+    ],
+    "list_examples": [
+        "a detached/semi-detached house",
+        "to buy/rent a house",
+        "house prices",
+        "She lives in a little house in (US on) Cross Street.",
+        "<b>the whole house</b> Try not to wake the whole house when you come in!",
+        "the monkey/lion house at the zoo",
+        "a hen house",
+        "the Sydney Opera House",
+        "Broadcasting House",
+        "a publishing house",
+        "a fashion house",
+        "Roast chicken is a speciality of the house.",
+        "a waffle/steak/sushi house",
+        "a curry house (= a South Asian restaurant)",
+        "<b>house wine</b> To keep costs down, ask for \"vino de la casa\", or house wine.",
+        "<b>house white</b> I'll have a glass of the house white, please.",
+        "<b>house red</b> We split a carafe of house red.",
+        "Our house cocktail is an Indian twist on the classic gin and tonic.",
+        "The pies are a house speciality.",
+        "<b>house staff</b> House staff includes residents, interns, and medical students, who are at various stages of training and who are supervised by the attending physician.",
+        "A house officer is a resident physician of a hospital (the \"house\") who is receiving further training.",
+        "House music first appeared in the late 1980s.",
+        "an inter-house hockey match",
+        "The British Royal Family belong to the House of Windsor.",
+        "The House began debating the proposal at 3 p.m.",
+        "The motion for tonight's debate is, \"This house believes that capital punishment should be abolished.\"",
+        "<b>full house</b> The opera played to a full house.",
+        "<b>packed house</b> Everyone in the packed house rose to their feet and applauded.",
+        "It will be difficult to house all the refugees.",
+        "The museum houses the biggest collection of antique toys in Europe."
+    ]
+}

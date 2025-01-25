@@ -1,0 +1,64 @@
+{
+    "id": "CAMBRIDGE_schedule",
+    "word": "schedule",
+    "uk_pron": "https://dictionary.cambridge.org/media/english/uk_pron/u/uks/uksch/uksched001.mp3",
+    "us_pron": "https://dictionary.cambridge.org/media/english/us_pron/s/sch/sched/schedule.mp3",
+    "uk_pron_filename": "CAMBRIDGE_schedule_uk.mp3",
+    "us_pron_filename": "CAMBRIDGE_schedule_us.mp3",
+    "uk_ipa": "/ˈʃedʒ.uːl/",
+    "us_ipa": "/ˈskedʒ.uːl/",
+    "word_type": "verb,noun",
+    "plural": "",
+    "variant": "",
+    "definitions": [
+        "a list of planned activities or things to be done showing the times or dates when they are intended to happen or be done",
+        "a list of the times when events are planned to happen, for example the times when classes happen or when buses, etc. leave and arrive",
+        "an official list of things",
+        "early",
+        "not early or late",
+        "to do less work than you planned to do by a particular point in time",
+        "to arrange that an event or activity will happen at a particular time"
+    ],
+    "examples": [
+        [
+            "a production schedule",
+            "a hectic/tight (= very busy) schedule",
+            "Everything went according to schedule (= as had been planned)."
+        ],
+        [
+            "The class schedule is available on the website.",
+            "a bus schedule",
+            "a schedule of talks at the convention"
+        ],
+        [
+            "a schedule of business expenses"
+        ],
+        [
+            "We expect the building work to be completed ahead of schedule."
+        ],
+        [
+            "Managers need to know whether work is proceeding on schedule."
+        ],
+        [
+            "I'm afraid we've fallen behind schedule in recent weeks."
+        ],
+        [
+            "The meeting has been scheduled for tomorrow afternoon.",
+            "The flight is scheduled to arrive at 8.45, but it's running 20 minutes late."
+        ]
+    ],
+    "list_examples": [
+        "a production schedule",
+        "a hectic/tight (= very busy) schedule",
+        "Everything went according to schedule (= as had been planned).",
+        "The class schedule is available on the website.",
+        "a bus schedule",
+        "a schedule of talks at the convention",
+        "a schedule of business expenses",
+        "We expect the building work to be completed ahead of schedule.",
+        "Managers need to know whether work is proceeding on schedule.",
+        "I'm afraid we've fallen behind schedule in recent weeks.",
+        "The meeting has been scheduled for tomorrow afternoon.",
+        "The flight is scheduled to arrive at 8.45, but it's running 20 minutes late."
+    ]
+}
