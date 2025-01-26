@@ -25,7 +25,7 @@ I provided you with a template containing the following fields:
 - *hint*: There are many words having the same meaning (EX: silly, ridiculous, preposterous) and they can make you confuse. The default of this field is empty and if you confuse one word with others, you can add something into it to facilitate the retrieving process. For example, the leading character (s, r, p), a subtle meaning setting a word apart from others or even personal experience.
 - *image*: By default, it's empty and you should add data into it whenever you feel it's necessary. Some words, especially nouns, have rather scientific meanings which are hard to conceive (EX: "a common animal with four legs, especially kept by people as a pet or to hunt or guard things" may hard to conceive as a dog, but with the below picture, you can sure the word is refering to "dog")
 
-![dog](src/dog.png)
+<div align='center'> <img src="src/dog.png"> </div>
 
 ## Config in Anki
 
