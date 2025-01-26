@@ -16,10 +16,10 @@ def set_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--url-file", type=str, required=False, default=config.URL_FILE)
     parser.add_argument(
-        "--download-dir", type=str, default=os.getcwd() + "/resource/file"
+        "--download-dir", type=str, default=os.path.join(os.getcwd(), "resource", "file")
     )
     parser.add_argument(
-        "--driver", type=str, default="Chrome", choices=["Chrome", "Edge", "Safari"]
+        "--driver", type=str, default="Edge", choices=["Chrome", "Edge", "Safari"]
     )
     parser.add_argument("--storage-dir", type=str, default=config.STORAGE_DIR)
     parser.add_argument("--headless", type=bool, default=True)
@@ -32,6 +32,7 @@ def set_args():
         type=str,
         default=config.STORAGE_DIR + "/output/" + datetime_str() + ".csv",
     )
+    parser.add_argument("--html-filename-deli", type=str, default=config.HTML_FILENAME_DELI)
     args = parser.parse_args()
     return args
 
@@ -39,9 +40,9 @@ def set_args():
 def dump_to_importable(args):
     os.makedirs(args.storage_dir + "/output", exist_ok=True)
     list_files = os.listdir(args.json_dir)
-    with open(args.output_file, "w") as f:
+    with open(args.output_file, "w", encoding='utf-8') as f:
         for file in list_files:
-            with open(args.json_dir + "/" + file, "r") as j:
+            with open(args.json_dir + "/" + file, "r", encoding='utf-8') as j:
                 data = json.load(j)
             elements = []
             elements.append(data["id"])

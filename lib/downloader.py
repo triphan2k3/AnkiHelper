@@ -1,6 +1,7 @@
 from selenium import webdriver 
 import os
 import time
+from pathlib import Path
   
 def create_driver(args, page_load_strategy='eager'):
     if args.driver != "Chrome" and args.driver != "Edge" and args.driver != "Safari":
@@ -54,7 +55,7 @@ def get_html(driver, url, output_file):
     driver.get(url)
     print("Getting content...")
     content = driver.page_source
-    with open(output_file, 'w') as f:
+    with open(output_file, 'w', encoding='utf-8') as f:
         f.write(content)
     print("Done!")
 
@@ -83,12 +84,12 @@ def get_resource(driver, url, output_file, args, delay = 0.3):
     #     f.write(response.content)
     print("Done!")
 
-def format_output_file(url, output_file):
+def format_output_file(url, output_file, args):
     output_file = output_file.replace("-", "_")
     if "cambridge" in url:
-        output_file = "CAMBRIDGE|" + output_file
+        output_file = "CAMBRIDGE" + args.html_filename_deli + output_file
     if "oxford" in url:
-        output_file = "OXFORD|" + output_file
+        output_file = "OXFORD" + args.html_filename_deli + output_file
     return output_file
 
 def download_html(args):
@@ -113,7 +114,7 @@ def download_html(args):
         for line in file:
             url = line.strip().split("?")[0].strip().split("#")[0].strip()
             output_file = url.split("/")[-1] + ".html"
-            output_file = args.html_dir + '/' + format_output_file(url, output_file)
+            output_file = args.html_dir + '/' + format_output_file(url, output_file, args)
             get_html(driver, url, output_file)
 
     # close driver

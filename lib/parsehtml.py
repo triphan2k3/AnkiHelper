@@ -191,7 +191,7 @@ def parse_meaning(subtree, PARAMS) -> list:
 
 
 
-def extract_infor(file_path):
+def extract_infor(file_path, agrs):
     PARAMS = {}
     if "CAMBRIDGE" in file_path:
         PARAMS = CAMBRIDGE_PARAMS
@@ -207,7 +207,10 @@ def extract_infor(file_path):
     
     header_infor = parse_header(subtree, PARAMS)
     word_info = {}
-    word_info['id'] = file_path.split('/')[-1].replace(".html", "").replace("|", "_")
+    word_info['id'] = (
+        file_path.split('/')[-1].split('\\')[-1].replace(".html", "")
+        .replace(agrs.html_filename_deli, "_")
+    )
     word_info['word'] = header_infor[0]
     word_info['uk_pron'] = header_infor[1]
     word_info['us_pron'] = header_infor[2]
@@ -242,8 +245,8 @@ def parse_html(args):
     for file in files:
         print('='*100)
         print(file)
-        word_info = extract_infor(os.path.join(args.html_dir, file))
-        with open(os.path.join(args.json_dir, file.replace(".html", ".json")), "w") as f:
+        word_info = extract_infor(os.path.join(args.html_dir, file), args)
+        with open(os.path.join(args.json_dir, file.replace(".html", ".json")), "w", encoding='utf-8') as f:
             f.write(json.dumps(word_info, indent=4, ensure_ascii=False))
 
         if args.print_mp3:
