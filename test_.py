@@ -25,40 +25,59 @@ class MenuBar:
 
 class LeftFrame:
     def __init__(self, gui):
-        left_frame = tk.Frame(gui.root, width=200, bg="grey")
-        left_frame.pack(side=tk.LEFT, fill=tk.Y)
-        listbox = tk.Listbox(
-            left_frame,
-            bg="grey",
+        self.left_frame = tk.Frame(gui.root, width=200, bg="black")
+        self.left_frame.pack(side=tk.LEFT, fill=tk.Y)
+        self.listbox = tk.Listbox(
+            self.left_frame,
+            bg="black",
             activestyle="dotbox",
             font="Helvetica",
-            fg="yellow",
+            fg="white",
         )
         for i in range(100):
-            listbox.insert(tk.END, "This is line number " + str(i))
-        listbox.pack(side=tk.LEFT, fill=tk.BOTH)
+            self.listbox.insert(tk.END, "This is line number " + str(i))
+        self.listbox.pack(side=tk.LEFT, fill=tk.BOTH)
         scrollbar = tk.Scrollbar(gui.root)
         scrollbar.pack(side=tk.LEFT, fill=tk.BOTH)
-        scrollbar.config(command=listbox.yview)
-        listbox.config(yscrollcommand=scrollbar.set)
-    
+        scrollbar.config(command=self.listbox.yview)
+        self.listbox.config(yscrollcommand=scrollbar.set)
+
+        self.listbox.bind('<<ListboxSelect>>', gui.select_item)
+
+
+
+
+class DisplayFrame:
+    def __init__(self, gui):
+        display_frame = tk.Frame(gui.root, bg="blue")
+        display_frame.pack(side=tk.LEFT, fill=tk.BOTH)
+        text = tk.Text(display_frame, bg="blue", fg="white")
+        text.pack(side=tk.LEFT, fill=tk.BOTH)
+        # scrollbar = tk.Scrollbar(gui.root)
+        # scrollbar.pack(side=tk.LEFT, fill=tk.BOTH)
+        # scrollbar.config(command=text.yview)
+        # text.config(yscrollcommand=scrollbar.set)
 
 class GUI:
-
     # constructor
     def __init__(self):
         self.max_width, self.max_height = self.get_display_size()
         self.root = tk.Tk()
         self.root.geometry(f"{self.max_width}x{self.max_height}")
-
-        LeftFrame(self)
-        MenuBar(self)
-
+        self.left = LeftFrame(self)
+        self.menu = MenuBar(self)
+        self.right = DisplayFrame(self)
         self.root.mainloop()
     
+    def select_item(self, event):
+        widget = event.widget
+        selection = widget.curselection()
+        value = widget.get(selection[0])
+        print(value)
+
+
     def get_display_size(self):
         root = tk.Tk()
-        
         # set the Tk window to transparent
         root.attributes("-alpha", 0)
         display_height = root.winfo_screenheight()
