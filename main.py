@@ -1,10 +1,11 @@
 import argparse
-from lib.downloader import download_html, download_file
+from lib.downloader import Downloader
 from lib.parsehtml import parse_html
 import config
 import os
 import json
 import datetime
+from selenium import webdriver
 
 
 def datetime_str():
@@ -103,9 +104,12 @@ def dump_to_importable(args):
             text = "|".join(elements).replace("\n", "<br>")
             f.write(text + "\n")
 
-
 if __name__ == "__main__":
     args = set_args()
+    driver = webdriver.Chrome()
+
+    f = Downloader(args)
+
     download_html(args)
     parse_html(args)
     download_file(args)

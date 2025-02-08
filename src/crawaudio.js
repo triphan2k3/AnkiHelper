@@ -8,15 +8,10 @@ How to use:
 - Click on button Console
 - pass all code to the console and enter
   + If it's your first time, you have to type "allow pasting" in advance
-- your files will be save with the names as follow (at least hold true for cambridge):
+- your files will be save with the pattern as follow (at least hold true for cambridge):
   + vocabulary_us.mp3
   + vocabulary_uk.mp3
-  + as a Linux user, I consider space being unacceptable, 
-  so if the vocabulary is more than one word, 
-  those words will be separated by _ (underscore character)
-  + For ex: smoke_and_mirrors_us.mp3
-  + "-" is also replaced by "_"
-  + For ex: single_handed_us.mp3 instead of single-handed_us.mp3 
+  + where vocabulary is the part of the link after the last slash ("/") with "-" replaced by "_"
 */
 
 // helper functions
@@ -33,18 +28,16 @@ var isLowerCase = function (ch) {
 };
 
 // main code
-const curUrl = window.location.href; // get current url
+
+// get current url, remove query string
+const curUrl = window.location.href.split("#")[0].split("?")[0]; 
 if (curUrl.includes("cambridge")) {
     // case cambridge dictionary
     const srcElement = document.getElementsByTagName("source");
-    let vocab = "";
-    let title = document.title;
-    for (let i = 0; title[i + 1] != "|"; i++) {
-        if (isAlpha(title[i])) vocab = vocab + title[i].toLowerCase();
-        else if (title[i] == " ") vocab = vocab + "_";
-    }
-    // console.log(vocab);
+    // prefix of filename
+    let vocab = "CAMBRIDGE_" + curUrl.split("/").pop().replace(/-/g, "_");
     for (let i = 0; i < srcElement.length; i++) {
+        // based on the observation that the first and third src elements is what we need
         if (i == 0 || i == 2) {
             const src = srcElement[i].getAttribute("src");
             const link = document.createElement("a");
@@ -64,6 +57,10 @@ if (curUrl.includes("cambridge")) {
 } else if (curUrl.includes("oxford")) {
     // case oxford dictionary
     const audioElements = document.querySelectorAll(".sound.audio_play_button");
+    // prefix of filename
+    let vocab = "OXFORD_" + curUrl.split("/").pop().replace(/-/g, "_");
+
+    // in this case, two first data-src-mp3 are what we need
     audioElements.forEach((el, key) => {
         srcMp3 = el.getAttribute("data-src-mp3");
         title = el.getAttribute("title");
@@ -74,14 +71,7 @@ if (curUrl.includes("cambridge")) {
             type = "_us";
         }
 
-        let fileName = "";
-        // there are other 20 space :))
-        // look stupid, i'll fix... in someday :))
-        for (let i = 0; i < title.length - dump - 20; i++) {
-            if (title[i] == " ") fileName = fileName + "_";
-            else fileName = fileName + title[i];
-        }
-        fileName = fileName + type;
+        let fileName = vocab + type;
 
         if (key < 2) {
             const link = document.createElement("a");
@@ -94,15 +84,7 @@ if (curUrl.includes("cambridge")) {
     });
 } else {
     // case collins dictionary
-    let vocab = "";
-    let title = document.title;
-    for (let i = 0; title[i + 1] != "|"; i++) {
-        if (isAlpha(title[i])) {
-            if (isLowerCase(title[i])) break;
-            vocab = vocab + title[i].toLowerCase();
-        } else vocab = vocab + "_";
-    }
-    if (vocab[vocab.length - 1] == "_") vocab = vocab.slice(0, -1);
+    let vocab = "COLLINS_" + curUrl.split("/").pop().replace(/-/g, "_");
 
     // console.log(vocab);
     const audioElements = document.querySelectorAll(

@@ -1,0 +1,99 @@
+import tkinter as tk
+import PIL
+import PIL.Image
+import PIL.ImageTk
+
+
+def get_display_size():
+    root = tk.Tk()
+    
+    # set the Tk window to transparent
+    root.attributes("-alpha", 0)
+    
+    display_height = root.winfo_screenheight()
+    display_width = root.winfo_screenwidth()
+    
+    root.destroy()
+
+    return display_width, display_height
+
+class MainFrame(tk.Frame):
+    def __init__(self, master):
+        super().__init__(master)
+        self.pack()
+
+class AnkiHelper(tk.Frame):
+    def __init__(self, master):
+        super().__init__(master)
+        self.pack()
+
+class ClickButton(tk.Button):
+    def __init__(self, button):
+        super().__init__(button)
+        self.count = 0
+        self.config(command=self.click)
+    
+count = 0
+def click():
+    print("Button clicked")
+    global count
+    count += 1
+    label.config(text=f"Button clicked {count} times") 
+
+def submit():
+    label.config(text=f"Submitted: {entry.get()}")
+
+def key_handler(event):
+    if entry.focus_get():
+        print("Entry is focused")
+        submit()
+        entry.delete(0, tk.END)
+
+w, h = get_display_size()
+
+root = tk.Tk()
+root.geometry(f"{w}x{h}+500+100".format(w, h))
+root.title("Anki Helper")
+# root.config(background="black")
+# root.iconbitmap('src/sakura.png')
+photo = PIL.Image.open("src/sakura.png").resize((100, 100))
+photo = PIL.ImageTk.PhotoImage(photo)
+
+label = tk.Label(
+    root,
+    text="Anki Helper",
+    font=("Arial", 20),
+    background="white",
+    image=photo,
+    compound="left",
+)
+label.pack()
+label.place(anchor="center", relx=0.5, rely=0.5)
+
+
+
+button = tk.Button(root, text="Click", command=click)
+button.pack()
+button.place(relx=0.5, rely=0.9,anchor="center")
+
+
+entry = tk.Entry(root)
+entry.pack()
+entry.place(relx=0.5, rely=0.8, anchor="center")
+entry.bind("<Return>", key_handler)
+entry.focus_set()  # Sets focus on the input field after the window is opened.
+
+entry2 = tk.Entry(root)
+entry2.pack()
+entry2.place(relx=0.5, rely=0.4, anchor="center")
+# entry2.bind("<Return>", key_handler)
+entry2.focus_set()  # Sets focus on the input field after the window is opened.
+# entry.
+
+button2 = tk.Button(root, text="Submit", command=submit)
+button2.pack()
+button2.place(relx=0.7, rely=0.9,anchor="center")
+
+# root.mainloop()
+myapp = AnkiHelper(root)
+myapp.mainloop()
